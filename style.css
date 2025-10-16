@@ -1,0 +1,80 @@
+*{margin: 0;}
+
+h1{display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-family:monospace;
+    color:rgb(233, 233, 227);
+    text-shadow:0 0 10px black,
+                0 0 10px black,
+                0 0 10px black,
+                0 0 10px black,
+                0 0 10px black;
+}
+.BackgroundH1{background:linear-gradient(0deg,rgb(13, 17, 121),rgba(126, 10, 172, 0.782), rgb(20, 9, 85));    
+    height:100px;
+}
+
+/* Анімований задній фон */
+body{background: linear-gradient(270deg,rgb(29, 29, 29),#000000, rgb(53, 52, 52), #0a0a0a, #1a1a1a, rgb(37, 34, 34), #050505);
+    animation: BGanim 9s ease infinite;
+    background-size: 800% 800%;
+    height: 100vh;
+    margin:0;
+}
+@keyframes BGanim {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+/* Кінець анімованого заднього фону */
+
+/* Блок навігації */
+.Navigate{display: flex;
+            justify-content: center;
+            align-items: center;
+.NavigateContent{color:rgb(255, 255, 255);
+                    font-size: 20px;
+                    border:2px solid black;
+                    width:500px;
+                    margin:10px;
+                    padding-bottom:5px;
+                    background:linear-gradient(0deg,rgb(13, 17, 121),rgba(126, 10, 172, 0.782), rgb(20, 9, 85));
+}
+h2{display: flex;
+    justify-content: center;
+    text-shadow: 0 0 10px black,
+                 0 0 10px black,
+                 0 0 10px black;
+}
+ul{padding-left: 2%;
+    list-style-position: inside;
+}
+a{color:rgb(175, 176, 178);}
+a:hover{text-decoration: none;
+        color:black;
+}
+}
+/* Кінець блоку навігації */
+
+.Info{color:rgb(255, 255, 255);
+        font-size: 25px;
+        
+.h{border:2px solid azure;
+    margin:50px;
+    padding-left:10px;
+    background-color: darkviolet;
+}
+.c{border:2px solid azure;
+    margin:50px;
+    padding-left:10px;
+    background-color: darkblue;
+}
+.j{border:2px solid azure;
+    margin:50px;
+    padding-left:10px;
+    background-color: darkslateblue;
+}
+}
+
